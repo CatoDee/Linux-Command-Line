@@ -1,0 +1,6 @@
+#!/bin/bash
+
+var1=$(echo "scale=2; 3.14 / 5" | bc)
+echo $var1
+
+exit 9

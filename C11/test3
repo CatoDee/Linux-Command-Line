@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#测试用户变量的使用
+
+days=10
+guest=Cato
+echo "$guest checked in $days days ago"
+
+days=5
+guest=Siky
+echo "$guest checked in $days days ago
+"
+
+today=$(date +%y%m%d)
+echo "today is $today"
+
